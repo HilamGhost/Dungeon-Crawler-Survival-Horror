@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6dcb3b25cfe91504da6f12d147de7c10, type: 3}
+  m_Name: Dog
+  m_EditorClassIdentifier: 
+  enemyName: Dog
+  enemyLayer:
+    serializedVersion: 2
+    m_Bits: 1024
+  maxHealth: 1
+  damage: 1
+  moveSpeed: 20
+  dedectRadius: 20
+  enemySprite: {fileID: 276360939929353183, guid: db801b1eb8676e946bfa6f641ee2e6f9, type: 3}
+  enemyAnimatorController: {fileID: 9100000, guid: 0e698ac670657814c99dd493440fe10e, type: 2}
+  colliderOffset: {x: 0.05286384, y: -0.2855687}
+  colliderSize: {x: 1.690158, y: 1.509251}

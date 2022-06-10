@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 06e7f8189b87dc045827eee03b23283c, type: 3}
+  m_Name: Bug
+  m_EditorClassIdentifier: 
+  enemyName: Bug
+  enemyLayer:
+    serializedVersion: 2
+    m_Bits: 2048
+  maxHealth: 1
+  damage: 1
+  moveSpeed: 2
+  dedectRadius: 10
+  enemySprite: {fileID: -8476652840971015511, guid: 4a39ac21c75e14c4f8a17bd46ed954c8, type: 3}
+  enemyAnimatorController: {fileID: 9100000, guid: 16efa2a640dce2c4597ad284332431aa, type: 2}
+  colliderOffset: {x: 0.01653647, y: -0.06614614}
+  colliderSize: {x: 1.407902, y: 1.308682}
+  enemyProjectile: {fileID: 4875297531557660951, guid: c3c49f005c52fa945a7d887c529edcf2, type: 3}
+  shootDistance: 5
+  shootRate: 2
+  projectileSpeed: 10
